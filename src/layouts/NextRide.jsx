@@ -88,7 +88,7 @@ const NextRide = () => {
                     </div>
 
                     <div className="rounded-[0.3125rem] bg-white  py-4 px-6">
-                        <h2 className="text-black font-Inter text-[1.25rem] font-semibold leading-normal">Car Type</h2>
+                        <h2 className="text-black font-Inter text-[1.25rem] font-semibold leading-normal">100+ Cars available</h2>
 
                         <div className=" mt-4 w-[32.5rem]">
                             <Marquee className="py-4">

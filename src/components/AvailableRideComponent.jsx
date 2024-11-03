@@ -2,10 +2,16 @@ import JointLineLeft from "../constant/icons/JointLineLeft"
 import JointLineRight from "../constant/icons/JointLineRight"
 import { Avatar, Divider } from "@nextui-org/react";
 import starIcon from "../assets/starIcon.svg"
+import { useNavigate } from "react-router-dom";
 
 const AvailableRideComponent = () => {
+    const navigate = useNavigate();
+
+    const navigateToDriveInfo = () => {
+        navigate("/driver-info")
+    }
     return (
-        <div className="rounded-[0.625rem] bg-white availableRidesBoxShadow overflow-hidden">
+        <div onClick={navigateToDriveInfo} className="rounded-[0.625rem] cursor-pointer bg-white availableRidesBoxShadow overflow-hidden">
             <div className="flex items-start gap-3 p-4">
                 <div>
                     <h2 className="text-black text-[1.25rem] font-Inter font-semibold leading-normal">04:00</h2>

@@ -4,8 +4,14 @@ import LoactionIcon from "../constant/icons/LoactionIcon";
 import CalendarIcon from "../constant/icons/CalendarIcon";
 import PassengerIcon from "../constant/icons/PassengerIcon";
 import heroSectionImage2 from "../assets/herosectionImage2.png"
+import { useNavigate } from "react-router-dom";
 
 const HeroSection2 = () => {
+    const navigate = useNavigate();
+
+    const navigateToRide = () => {
+        navigate("/available-rides")
+    }
     return (
         <section className="w-full relative">
             <img src={heroSectionImage2} alt="heroImage" className="w-full h-[30.75rem] object-cover" />
@@ -83,7 +89,7 @@ const HeroSection2 = () => {
                             </div>
                         </div>
 
-                        <button className="bg-[#55A4FF] flex gap-2 px-[1.125rem] py-2 rounded-[1.25rem] text-white text-base font-Inter font-normal searchBoxShadow">
+                        <button onClick={navigateToRide} className="bg-[#55A4FF] flex gap-2 px-[1.125rem] py-2 rounded-[1.25rem] text-white text-base font-Inter font-normal searchBoxShadow">
                             <SearchIcon />
                             Search
                         </button>

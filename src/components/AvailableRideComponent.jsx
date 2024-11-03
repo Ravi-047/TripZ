@@ -1,6 +1,7 @@
 import JointLineLeft from "../constant/icons/JointLineLeft"
 import JointLineRight from "../constant/icons/JointLineRight"
 import { Avatar, Divider } from "@nextui-org/react";
+import starIcon from "../assets/starIcon.svg"
 
 const AvailableRideComponent = () => {
     return (
@@ -35,7 +36,7 @@ const AvailableRideComponent = () => {
                             <p className="text-black font-Inter leading-normal font-normal text-[0.75rem]">Chennai, TamilNadu</p>
 
                             <div className="flex items-center gap-1">
-                                <img src="/src/assets/starIcon.svg" alt="star icon" />
+                                <img src={starIcon} alt="star icon" />
 
                                 <p className="text-black font-Inter leading-normal font-medium text-[0.625rem]">4.8</p>
                             </div>

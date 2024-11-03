@@ -1,11 +1,12 @@
 import { Link } from "react-router-dom"
+import logo from "../assets/logo.png"
 
 const Navbar = () => {
     return (
         <header className="w-full">
             <nav className="w-full h-[3.75rem] bg-[#00000026] flex items-center justify-between px-[3.75rem]">
                 <div>
-                    <img src="/src/assets/logo.png" alt="logo" />
+                    <img src={logo} alt="logo" />
                 </div>
                 <div className="flex items-center justify-center gap-[4.94rem]">
                     <Link to="/" className="text-white font-Inter text-[1.125rem] font-normal leading-normal">Home</Link>

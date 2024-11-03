@@ -7,6 +7,7 @@ import NoSmoking from "../constant/icons/NoSmoking"
 import DriverCar from "../constant/icons/DriverCar"
 import JointLineStraight from "../constant/icons/JointLineStraight"
 import DriverCar2Icon from "../constant/icons/DriverCar2Icon"
+import starIcon from "../assets/starIcon.svg"
 
 const DriverInfo = () => {
     return (
@@ -21,7 +22,7 @@ const DriverInfo = () => {
                         <div>
                             <h2 className="text-black font-Inter text-base font-medium leading-normal">Leveil Samson</h2>
                             <div className="flex items-center gap-2">
-                                <img src="/src/assets/starIcon.svg" alt="star icon" />
+                                <img src={starIcon} alt="star icon" />
 
                                 <p className="text-[#00000099] font-Inter leading-normal font-medium text-[0.625rem]">4.7 / 5 - 33 ratings</p>
                             </div>
@@ -105,7 +106,7 @@ const DriverInfo = () => {
                             <div>
                                 <h2 className="text-black font-Inter text-[0.9rem] font-medium leading-normal">Leveil Samson</h2>
                                 <div className="flex items-center gap-2">
-                                    <img src="/src/assets/starIcon.svg" alt="star icon" />
+                                    <img src={starIcon} alt="star icon" />
 
                                     <p className="text-[#00000099] font-Inter leading-normal font-medium text-[0.625rem]">4.7</p>
                                 </div>

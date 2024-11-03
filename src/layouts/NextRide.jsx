@@ -1,4 +1,13 @@
 import Marquee from "react-fast-marquee"
+import IconArrowRight from "../assets/IconArrowRight.png"
+import sedanCar from "../assets/sedanCar.png"
+import suvCar from "../assets/suvCar.png"
+import sportsCar from '../assets/sportsCar.png';
+import electricCar from "../assets/electricCar.png"
+import toyotaCorolla from "../assets/toyotaCorolla.png"
+import toyotaYaris from "../assets/toyotaYaris.png"
+import toyota from "../assets/toyota.png"
+import starIcon from "../assets/starIcon.svg"
 
 const NextRide = () => {
     return (
@@ -12,7 +21,7 @@ const NextRide = () => {
                             <p className="text-black font-Inter text-[1.25rem] font-semibold leading-normal">Chennai - Bengaluru </p>
 
                             <div className="w-[1.5rem] h-[1.5rem]">
-                                <img src="/src/assets/IconArrowRight.png" alt="arrow right" className="w-full object-contain" />
+                                <img src={IconArrowRight} alt="arrow right" className="w-full object-contain" />
                             </div>
                         </div>
 
@@ -20,7 +29,7 @@ const NextRide = () => {
                             <p className="text-black font-Inter text-[1.25rem] font-semibold leading-normal">Kochi - Bengaluru </p>
 
                             <div className="w-[1.5rem] h-[1.5rem]">
-                                <img src="/src/assets/IconArrowRight.png" alt="arrow right" className="w-full object-contain" />
+                                <img src={IconArrowRight} alt="arrow right" className="w-full object-contain" />
                             </div>
                         </div>
 
@@ -28,7 +37,7 @@ const NextRide = () => {
                             <p className="text-black font-Inter text-[1.25rem] font-semibold leading-normal">Mumbai - Bengaluru </p>
 
                             <div className="w-[1.5rem] h-[1.5rem]">
-                                <img src="/src/assets/IconArrowRight.png" alt="arrow right" className="w-full object-contain" />
+                                <img src={IconArrowRight} alt="arrow right" className="w-full object-contain" />
                             </div>
                         </div>
 
@@ -45,7 +54,7 @@ const NextRide = () => {
                         <div className="flex mt-4 items-center gap-[2.5rem]">
                             <div className="flex flex-col items-center gap-3">
                                 <div className="relative group">
-                                    <img src="/src/assets/sedanCar.png" alt="sedan car" />
+                                    <img src={sedanCar} alt="sedan car" />
                                     <div className="absolute rounded-[0.625rem] cursor-pointer inset-0 bg-black opacity-0 group-hover:opacity-30 transition-opacity duration-300"></div>
 
                                 </div>
@@ -54,7 +63,7 @@ const NextRide = () => {
 
                             <div className="flex flex-col items-center gap-3">
                                 <div className="relative group">
-                                    <img src="/src/assets/suvCar.png" alt="sedan car" />
+                                    <img src={suvCar} alt="sedan car" />
                                     <div className="absolute rounded-[0.625rem] cursor-pointer inset-0 bg-black opacity-0 group-hover:opacity-30 transition-opacity duration-300"></div>
                                 </div>
                                 <p className="text-black font-Inter text-[1.25rem] font-normal leading-normal">Suv</p>
@@ -62,7 +71,7 @@ const NextRide = () => {
 
                             <div className="flex flex-col items-center gap-3">
                                 <div className="relative group">
-                                    <img src="/src/assets/sportsCar.png" alt="sedan car" />
+                                    <img src={sportsCar} alt="sedan car" />
                                     <div className="absolute rounded-[0.625rem] cursor-pointer inset-0 bg-black opacity-0 group-hover:opacity-30 transition-opacity duration-300"></div>
                                 </div>
                                 <p className="text-black font-Inter text-[1.25rem] font-normal leading-normal">Sport</p>
@@ -70,7 +79,7 @@ const NextRide = () => {
 
                             <div className="flex flex-col items-center gap-3">
                                 <div className="relative group">
-                                    <img src="/src/assets/electricCar.png" alt="sedan car" />
+                                    <img src={electricCar} alt="sedan car" />
                                     <div className="absolute rounded-[0.625rem] cursor-pointer inset-0 bg-black opacity-0 group-hover:opacity-30 transition-opacity duration-300"></div>
                                 </div>
                                 <p className="text-black font-Inter text-[1.25rem] font-normal leading-normal">Electric</p>
@@ -85,7 +94,7 @@ const NextRide = () => {
                             <Marquee className="py-4">
                                 <div className="max-w-[10rem] w-full ml-4 rounded-[0.3125rem] bg-white overflow-hidden carsAvailableBoxShadow">
                                     <div className="w-[10rem] h-[6.25rem]">
-                                        <img src="/src/assets/toyotaCorolla.png" alt="toyota" className="w-full object-cover" />
+                                        <img src={toyotaCorolla} alt="toyota" className="w-full object-cover" />
                                     </div>
 
                                     <div className=" px-3 pt-3 pb-4">
@@ -97,7 +106,7 @@ const NextRide = () => {
 
                                             <div className="flex items-center gap-1">
                                                 <p className="text-black font-Inter leading-normal font-medium text-[0.625rem]">4.8</p>
-                                                <img src="/src/assets/starIcon.svg" alt="star icon" />
+                                                <img src={starIcon} alt="star icon" />
                                             </div>
                                         </div>
                                     </div>
@@ -105,7 +114,7 @@ const NextRide = () => {
 
                                 <div className="max-w-[10rem] w-full ml-4  rounded-[0.3125rem] bg-white overflow-hidden carsAvailableBoxShadow">
                                     <div className="w-[10rem] h-[6.25rem]">
-                                        <img src="/src/assets/toyotaYaris.png" alt="toyota" className="w-full object-cover" />
+                                        <img src={toyotaYaris} alt="toyota" className="w-full object-cover" />
                                     </div>
 
                                     <div className=" px-3 pt-3 pb-4">
@@ -117,7 +126,7 @@ const NextRide = () => {
 
                                             <div className="flex items-center gap-1">
                                                 <p className="text-black font-Inter leading-normal font-medium text-[0.625rem]">4.8</p>
-                                                <img src="/src/assets/starIcon.svg" alt="star icon" />
+                                                <img src={starIcon} alt="star icon" />
                                             </div>
                                         </div>
                                     </div>
@@ -125,7 +134,7 @@ const NextRide = () => {
 
                                 <div className="max-w-[10rem] w-full ml-4  rounded-[0.3125rem] bg-white overflow-hidden carsAvailableBoxShadow">
                                     <div className="w-[10rem] h-[6.25rem]">
-                                        <img src="/src/assets/toyota.png" alt="toyota" className="w-full object-cover" />
+                                        <img src={toyota} alt="toyota" className="w-full object-cover" />
                                     </div>
 
                                     <div className=" px-3 pt-3 pb-4">
@@ -137,7 +146,7 @@ const NextRide = () => {
 
                                             <div className="flex items-center gap-1">
                                                 <p className="text-black font-Inter leading-normal font-medium text-[0.625rem]">4.8</p>
-                                                <img src="/src/assets/starIcon.svg" alt="star icon" />
+                                                <img src={starIcon} alt="star icon" />
                                             </div>
                                         </div>
                                     </div>
@@ -145,7 +154,7 @@ const NextRide = () => {
 
                                 <div className="max-w-[10rem] w-full ml-4  rounded-[0.3125rem] bg-white overflow-hidden carsAvailableBoxShadow">
                                     <div className="w-[10rem] h-[6.25rem]">
-                                        <img src="/src/assets/toyotaCorolla.png" alt="toyota" className="w-full object-cover" />
+                                        <img src={toyotaCorolla} alt="toyota" className="w-full object-cover" />
                                     </div>
 
                                     <div className=" px-3 pt-3 pb-4">
@@ -157,7 +166,7 @@ const NextRide = () => {
 
                                             <div className="flex items-center gap-1">
                                                 <p className="text-black font-Inter leading-normal font-medium text-[0.625rem]">4.8</p>
-                                                <img src="/src/assets/starIcon.svg" alt="star icon" />
+                                                <img src={starIcon} alt="star icon" />
                                             </div>
                                         </div>
                                     </div>
@@ -165,7 +174,7 @@ const NextRide = () => {
 
                                 <div className="max-w-[10rem] w-full ml-4  rounded-[0.3125rem] bg-white overflow-hidden carsAvailableBoxShadow">
                                     <div className="w-[10rem] h-[6.25rem]">
-                                        <img src="/src/assets/toyotaYaris.png" alt="toyota" className="w-full object-cover" />
+                                        <img src={toyotaYaris} alt="toyota" className="w-full object-cover" />
                                     </div>
 
                                     <div className=" px-3 pt-3 pb-4">
@@ -177,7 +186,7 @@ const NextRide = () => {
 
                                             <div className="flex items-center gap-1">
                                                 <p className="text-black font-Inter leading-normal font-medium text-[0.625rem]">4.8</p>
-                                                <img src="/src/assets/starIcon.svg" alt="star icon" />
+                                                <img src={starIcon} alt="star icon" />
                                             </div>
                                         </div>
                                     </div>
@@ -185,7 +194,7 @@ const NextRide = () => {
 
                                 <div className="max-w-[10rem] w-full ml-4  rounded-[0.3125rem] bg-white overflow-hidden carsAvailableBoxShadow">
                                     <div className="w-[10rem] h-[6.25rem]">
-                                        <img src="/src/assets/toyota.png" alt="toyota" className="w-full object-cover" />
+                                        <img src={toyota} alt="toyota" className="w-full object-cover" />
                                     </div>
 
                                     <div className=" px-3 pt-3 pb-4">
@@ -197,7 +206,7 @@ const NextRide = () => {
 
                                             <div className="flex items-center gap-1">
                                                 <p className="text-black font-Inter leading-normal font-medium text-[0.625rem]">4.8</p>
-                                                <img src="/src/assets/starIcon.svg" alt="star icon" />
+                                                <img src={starIcon} alt="star icon" />
                                             </div>
                                         </div>
                                     </div>

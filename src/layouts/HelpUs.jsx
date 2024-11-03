@@ -4,6 +4,7 @@ import { IoIosArrowDown, IoIosArrowUp } from "react-icons/io";
 import { Link } from "react-router-dom";
 import SafetyIcon from "../constant/icons/SafetyIcon";
 import TravelIcon from "../constant/icons/TravelIcon";
+import carImage from "../assets/car.png"
 
 const HelpUs = () => {
     return (
@@ -98,7 +99,7 @@ const HelpUs = () => {
                 </div>
 
                 <div className="flex-1 flex items-end max-w-[33.75rem] px-[2.25rem] rounded-[1.25rem] helpUsBackground">
-                    <img src="/src/assets/car.png" alt="car image" />
+                    <img src={carImage} alt="car image" />
                 </div>
             </div>
         </section>

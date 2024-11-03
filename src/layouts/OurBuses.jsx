@@ -1,5 +1,8 @@
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Pagination, Autoplay } from 'swiper/modules';
+import sliderImage1 from "../assets/sliderImage1.png"
+import sliderImage2 from "../assets/sliderImage2.png"
+import sliderImage3 from '../assets/sliderImage3.png';
 
 import 'swiper/css';
 import 'swiper/css/pagination';
@@ -40,22 +43,22 @@ const OurBuses = () => {
                     className="mySwiper "
                 >
                     <SwiperSlide className=' !w-[45.10238rem] !h-[30.06825rem]'>
-                        <img src="/src/assets/sliderImage1.png" alt="slider image1" className=' w-full h-full object-cover rounded-[0.75169rem]' />
+                        <img src={sliderImage1} alt="slider image1" className=' w-full h-full object-cover rounded-[0.75169rem]' />
                     </SwiperSlide>
                     <SwiperSlide className=' !w-[45.10238rem] !h-[30.06825rem]'>
-                        <img src="/src/assets/sliderImage2.png" alt="slider image 2" className=' w-full h-full object-cover rounded-[0.75169rem]' />
+                        <img src={sliderImage2} alt="slider image 2" className=' w-full h-full object-cover rounded-[0.75169rem]' />
                     </SwiperSlide>
                     <SwiperSlide className=' !w-[45.10238rem] !h-[30.06825rem]'>
-                        <img src="/src/assets/sliderImage3.png" alt="slider image 3" className=' w-full h-full object-cover rounded-[0.75169rem]' />
+                        <img src={sliderImage3} alt="slider image 3" className=' w-full h-full object-cover rounded-[0.75169rem]' />
                     </SwiperSlide>
                     <SwiperSlide className=' !w-[45.10238rem] !h-[30.06825rem]'>
-                        <img src="/src/assets/sliderImage1.png" alt="slider image1" className=' w-full h-full object-cover rounded-[0.75169rem]' />
+                        <img src={sliderImage1} alt="slider image1" className=' w-full h-full object-cover rounded-[0.75169rem]' />
                     </SwiperSlide>
                     <SwiperSlide className=' !w-[45.10238rem] !h-[30.06825rem]'>
-                        <img src="/src/assets/sliderImage2.png" alt="slider image 2" className=' w-full h-full object-cover rounded-[0.75169rem]' />
+                        <img src={sliderImage2} alt="slider image 2" className=' w-full h-full object-cover rounded-[0.75169rem]' />
                     </SwiperSlide>
                     <SwiperSlide className=' !w-[45.10238rem] !h-[30.06825rem]'>
-                        <img src="/src/assets/sliderImage3.png" alt="slider image 3" className=' w-full h-full object-cover rounded-[0.75169rem]' />
+                        <img src={sliderImage3} alt="slider image 3" className=' w-full h-full object-cover rounded-[0.75169rem]' />
                     </SwiperSlide>
                 </Swiper>
             </div>

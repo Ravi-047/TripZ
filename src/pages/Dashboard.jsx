@@ -14,6 +14,7 @@ import RedDownIcon from "../constant/icons/dashboard/RedDownIcon"
 import WeeklyBookingIcon from "../constant/icons/dashboard/WeeklyBookingIcon"
 import BookedToday from "../constant/icons/dashboard/BookedToday"
 import { Pagination } from "@nextui-org/react";
+import dashboardIcon from '../assets/dashboardIcon.png';
 
 
 
@@ -117,7 +118,7 @@ const Dashboard = () => {
                     <div className="flex-[1] h-full">
                         <div className="flex gap-2 items-center">
                             <div className="w-[1.23856rem] h-[2.12325rem]">
-                                <img src="/src/assets/dashboardIcon.png" alt="dashboardIcon" className="w-full h-full object-cover" />
+                                <img src={dashboardIcon} alt="dashboardIcon" className="w-full h-full object-cover" />
                             </div>
                             <p className="text-black font-Poppins text-nowrap text-[1.625rem] font-semibold leading-normal tracking-[0.01325rem]">Dashboard <span className="text-[#838383] text-[0.625rem] font-Poppins font-normal leading-normal tracking-[-0.00625rem]">v.01</span></p>
                         </div>

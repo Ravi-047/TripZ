@@ -1,4 +1,5 @@
 import GoogleIcon from '../constant/icons/GoogleIcon'
+import loginImage from "../assets/login.png"
 
 const SignIn = () => {
     return (
@@ -6,7 +7,7 @@ const SignIn = () => {
             <section className="w-full">
                 <div className="w-full flex">
                     <div className="flex-1 h-dvh">
-                        <img src="/src/assets/login.png" alt="register image" className="w-full h-full object-cover" />
+                        <img src={loginImage} alt="register image" className="w-full h-full object-cover" />
                     </div>
                     <div className="flex-1 flex items-center justify-center">
                         <div className="max-w-[22.5rem] w-full generalSansVariable">

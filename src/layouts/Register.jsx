@@ -1,5 +1,5 @@
 import GoogleIcon from "../constant/icons/GoogleIcon"
-import registerImage from "../../public/assets/register.png"
+import registerImage from "../assets/register.png"
 
 const Register = () => {
     return (

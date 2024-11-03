@@ -4,11 +4,12 @@ import LoactionIcon from "../constant/icons/LoactionIcon";
 import CalendarIcon from "../constant/icons/CalendarIcon";
 import PassengerIcon from "../constant/icons/PassengerIcon";
 import SearchIcon from "../constant/icons/SearchIcon";
+import heroImage from "../assets/heroImage.png"
 
 const HeroSection = () => {
     return (
         <section className="w-full relative">
-            <img src="/src/assets/heroImage.png" alt="heroImage" className="w-full h-[60rem] object-cover" />
+            <img src={heroImage} alt="heroImage" className="w-full h-[60rem] object-cover" />
             <div className="absolute top-0 left-0 right-0 bottom-0 gap-[8rem] flex flex-col px-4 items-center justify-center">
                 <div className="">
                     <h1 className="text-white text-[5rem] leading-normal font-bold font-Inter text-center">RIDE SMARTER</h1>

@@ -3,11 +3,12 @@ import { Select, SelectItem } from "@nextui-org/react";
 import LoactionIcon from "../constant/icons/LoactionIcon";
 import CalendarIcon from "../constant/icons/CalendarIcon";
 import PassengerIcon from "../constant/icons/PassengerIcon";
+import heroSectionImage2 from "../assets/herosectionImage2.png"
 
 const HeroSection2 = () => {
     return (
         <section className="w-full relative">
-            <img src="/src/assets/herosectionImage2.png" alt="heroImage" className="w-full h-[30.75rem] object-cover" />
+            <img src={heroSectionImage2} alt="heroImage" className="w-full h-[30.75rem] object-cover" />
             <div className="absolute top-0 left-0 right-0 bottom-0 gap-[13rem] flex px-4 items-center justify-center">
                 <div className="h-[12.5rem] flex flex-col justify-between max-w-[77.5rem] w-full rounded-[0.625rem] bg-[#FFFFFFE5] py-4 px-6 heroBoxShadow">
                     <div className="flex gap-[1.88rem]">

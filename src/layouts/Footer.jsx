@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom"
+import logo from "../assets/logo.png"
 
 const Footer = () => {
     return (
@@ -6,7 +7,7 @@ const Footer = () => {
             <div className="py-[5rem] max-w-[77.5rem] w-full  m-auto flex justify-between gap-[7.5rem]">
                 <div>
                     <div className="flex items-center gap-3">
-                        <img src="/src/assets/logo.png" alt="logo" />
+                        <img src={logo} alt="logo" />
                         <p className="font-Inter text-[2rem] leading-normal text-white font-semibold">Trip Z</p>
                     </div>
 
